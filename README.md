@@ -1,6 +1,6 @@
 # AI Acceleration with AMD (ROCm/Enterprise AI Suite)
 
-Welcome to the official repository for the AI Acceleration with AMD hands-on lab at HPE Tech Jam Vienna 2026! This repository is dedicated to sharing files, resources, and materials relevant to the hands-on lab.
+Welcome to the official repository for the AI Acceleration with AMD hands-on lab at HPE Tech Jam Vienna 2026! This repository is dedicated to sharing sample files, datasets, and materials relevant to the hands-on lab.
 
 ## Repository Contents
 
@@ -25,15 +25,15 @@ Example Python script demonstrating how to interact with a chat completions API 
 ### ComfyUI Text-to-Image Generation
 
 - **comfyui_sample.json**
-A sample ComfyUI workflow (canvas file) for generating images using Flux AI model. Drag and drop this file into ComfyUI to load the workflow.
+A sample ComfyUI workflow (canvas file) for generating images using Flux model. Drag and drop this file into ComfyUI to load the workflow.
 
 ## Workshop publication note
 
-These materials were prepared and will be used in a hands-on lab run at the HPE Tech Jam Vienna 2026 event. The repository is published publicly to allow participants free access during the workshop. If you find any content that appears to contain secrets, PII, or other sensitive information, notify the maintainer immediately.
+These materials were prepared for a hands-on lab run at the HPE Tech Jam Vienna 2026 event. The repository is published publicly to allow participants free access during the workshop.
 
 ## Disclaimer
 
-This repository contains sample scripts and datasets intended for workshop/demo purposes only. Some example scripts in this repo use insecure defaults (e.g., disabling TLS verification); do not use those defaults in production. Review any dataset files for PII or copyright restrictions before using them.
+This repository contains sample scripts and datasets intended for demonstration purposes only. Some example scripts in this repo use insecure defaults (e.g., disabling TLS verification); do not use those defaults in production. Always follow best practices for security, data privacy, and compliance when deploying AI solutions in real-world scenarios.
 
 ## License
 
