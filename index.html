@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAM - File Repository for Hands-on Lab</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .section h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        .file-list {
+            list-style: none;
+        }
+        
+        .file-item {
+            background: #f8f9fa;
+            margin: 10px 0;
+            padding: 15px 20px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: all 0.3s ease;
+        }
+        
+        .file-item:hover {
+            background: #e9ecef;
+            transform: translateX(5px);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .file-info {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .file-icon {
+            font-size: 24px;
+        }
+        
+        .file-name {
+            font-weight: 500;
+            color: #333;
+        }
+        
+        .file-description {
+            color: #6c757d;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+        
+        .download-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+        
+        .download-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+        
+        .instructions {
+            background: #e7f3ff;
+            padding: 20px;
+            border-radius: 5px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .instructions ol {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        
+        .instructions li {
+            margin: 8px 0;
+            line-height: 1.6;
+        }
+        
+        .footer {
+            background: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            color: #6c757d;
+            border-top: 1px solid #dee2e6;
+        }
+        
+        code {
+            background: #f8f9fa;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            color: #d63384;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎯 JAM</h1>
+            <p>File Repository for Hands-on Lab</p>
+        </div>
+        
+        <div class="content">
+            <div class="section">
+                <h2>📚 Getting Started</h2>
+                <div class="instructions">
+                    <p><strong>Welcome to the JAM hands-on lab file repository!</strong></p>
+                    <ol>
+                        <li>Browse the available files below</li>
+                        <li>Click the download button to get the files you need</li>
+                        <li>Follow the lab instructions provided with each file</li>
+                        <li>Have fun learning!</li>
+                    </ol>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>📁 Available Files</h2>
+                <ul class="file-list">
+                    <li class="file-item">
+                        <div class="file-info">
+                            <span class="file-icon">📄</span>
+                            <div>
+                                <div class="file-name">lab-01-starter.txt</div>
+                                <div class="file-description">Lab 1: Getting Started - Starter files and instructions</div>
+                            </div>
+                        </div>
+                        <a href="files/lab-01-starter.txt" class="download-btn" download>Download</a>
+                    </li>
+                    
+                    <li class="file-item">
+                        <div class="file-info">
+                            <span class="file-icon">📄</span>
+                            <div>
+                                <div class="file-name">lab-02-intermediate.txt</div>
+                                <div class="file-description">Lab 2: Intermediate Concepts - Practice exercises</div>
+                            </div>
+                        </div>
+                        <a href="files/lab-02-intermediate.txt" class="download-btn" download>Download</a>
+                    </li>
+                    
+                    <li class="file-item">
+                        <div class="file-info">
+                            <span class="file-icon">📄</span>
+                            <div>
+                                <div class="file-name">lab-03-advanced.txt</div>
+                                <div class="file-description">Lab 3: Advanced Topics - Challenge yourself</div>
+                            </div>
+                        </div>
+                        <a href="files/lab-03-advanced.txt" class="download-btn" download>Download</a>
+                    </li>
+                    
+                    <li class="file-item">
+                        <div class="file-info">
+                            <span class="file-icon">📚</span>
+                            <div>
+                                <div class="file-name">reference-materials.txt</div>
+                                <div class="file-description">Quick reference guide and cheat sheet</div>
+                            </div>
+                        </div>
+                        <a href="files/reference-materials.txt" class="download-btn" download>Download</a>
+                    </li>
+                    
+                    <li class="file-item">
+                        <div class="file-info">
+                            <span class="file-icon">🎥</span>
+                            <div>
+                                <div class="file-name">tutorial-videos.txt</div>
+                                <div class="file-description">Links to video tutorials and walkthroughs</div>
+                            </div>
+                        </div>
+                        <a href="files/tutorial-videos.txt" class="download-btn" download>Download</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <h2>💡 Need Help?</h2>
+                <div class="instructions">
+                    <p>If you encounter any issues:</p>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>Check that you've downloaded the correct file for your lab</li>
+                        <li>Make sure you have the required software installed</li>
+                        <li>Refer to the reference materials for additional guidance</li>
+                        <li>Ask your instructor or lab assistant for help</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>JAM File Repository | Built for hands-on learning</p>
+        </div>
+    </div>
+</body>
+</html>

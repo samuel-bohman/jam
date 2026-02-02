@@ -1,0 +1,27 @@
+# Tutorial Videos
+
+## Video Walkthroughs
+
+### Lab 1 Video Tutorial
+Link: https://example.com/lab1-tutorial
+Duration: 15 minutes
+Topics: Getting started, basic setup, first steps
+
+### Lab 2 Video Tutorial  
+Link: https://example.com/lab2-tutorial
+Duration: 25 minutes
+Topics: Intermediate concepts, hands-on practice
+
+### Lab 3 Video Tutorial
+Link: https://example.com/lab3-tutorial
+Duration: 35 minutes
+Topics: Advanced topics, complex scenarios
+
+### Additional Resources
+- Overview: https://example.com/overview
+- Tips and Tricks: https://example.com/tips
+- Q&A Session: https://example.com/qa
+
+---
+Note: Replace the example.com links with actual video hosting URLs
+when you upload your tutorial content.

@@ -1,0 +1,18 @@
+# Lab 2: Intermediate Concepts
+
+This file contains intermediate exercises.
+
+## Topics Covered
+
+- Advanced techniques
+- Best practices
+- Real-world examples
+
+## Practice Exercises
+
+1. Exercise 1: Build a simple application
+2. Exercise 2: Optimize performance
+3. Exercise 3: Debug common issues
+
+---
+Intermediate level content for hands-on practice

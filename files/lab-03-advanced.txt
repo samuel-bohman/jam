@@ -1,0 +1,19 @@
+# Lab 3: Advanced Topics
+
+Challenge yourself with advanced concepts!
+
+## Advanced Challenges
+
+- Complex architectures
+- Performance optimization
+- Security considerations
+- Scalability patterns
+
+## Challenge Problems
+
+1. Design a distributed system
+2. Implement caching strategies
+3. Build a production-ready solution
+
+---
+Advanced challenges for experienced learners
