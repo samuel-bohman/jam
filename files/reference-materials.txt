@@ -1,0 +1,27 @@
+# Reference Materials
+
+## Quick Reference Guide
+
+### Key Concepts
+- Concept 1: Fundamental principles
+- Concept 2: Core techniques
+- Concept 3: Best practices
+
+### Cheat Sheet
+- Command 1: Description
+- Command 2: Description
+- Command 3: Description
+
+### Common Patterns
+- Pattern A: When to use
+- Pattern B: Implementation details
+- Pattern C: Trade-offs
+
+### Troubleshooting
+- Issue 1: Solution
+- Issue 2: Workaround
+- Issue 3: Best approach
+
+---
+This reference material is designed to help you during the labs.
+Keep it handy for quick lookups!

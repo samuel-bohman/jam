@@ -1,0 +1,19 @@
+# Lab 1: Getting Started
+
+This is a starter file for Lab 1.
+
+## Instructions
+
+1. Extract this archive
+2. Follow the tutorial steps
+3. Complete the exercises
+4. Have fun!
+
+## Contents
+
+- README.md (this file)
+- sample-code.txt
+- exercise-template.txt
+
+---
+Sample content for hands-on lab
